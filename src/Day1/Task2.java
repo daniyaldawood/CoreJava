@@ -4,8 +4,10 @@ public class Task2 {
 	
 	private int x,y;
 
-	public String getDetails()
+	public String getDetails(int a,int b)
 	{
-	   return "Point ("+x+","+y+")";
+		x=a;
+		y=b;
+		return "Point ("+x+","+y+")";
 	}
 }
